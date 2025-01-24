@@ -7,7 +7,7 @@ public class Ingresos_vendedor {
 //Metodo principal
 public static void main (String args[]){
 //Declarar variables
-int vt1,vt2,vt3;
+int vt1,vt2,vt3,vt4;
 double sm,pt,c;
 String vendedor;
 Scanner lectura=new Scanner(System.in);
@@ -22,8 +22,10 @@ System.out.print("Venta 2:");
 vt2=lectura.nextInt();
 System.out.print("Venta 3:");
 vt3=lectura.nextInt();
+System.out.print("Venta 4:");
+vt4=lectura.nextInt();
 //proceso de datos
-c=(vt1+vt2+vt3)*0.10;
+c=(vt1+vt2+vt3+vt4)*0.10;
 pt=sm+c;
 //Salida de datos
 System.out.println("La comision de la venta es       : " + c);
